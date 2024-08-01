@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>FacebookAppID</key>
+	<string>483806214590832</string>
+	<key>FacebookClientToken</key>
+	<string>4c8668ccfe3f0973bd856ee72fd424dd</string>
+	<key>FacebookDisplayName</key>
+	<string>Test Sign In</string>
 </dict>
 </plist>

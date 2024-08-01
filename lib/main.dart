@@ -81,7 +81,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   SignInMethods.signInWithGoogle();
                 },
-                child: const Text("Sign in With Google"))
+                child: const Text("Sign in With Google")),
+            SizedBox(
+              height: 20,
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  SignInMethods.signInWithFacebook();
+                },
+                child: const Text("Sign in With Facebook"))
           ],
         ),
       ),
